@@ -1,0 +1,19 @@
+.button, nav li a {
+  border-radius: 20px;
+  background-color: #eee;
+  text-align: center;
+  border: 1px solid #000; }
+
+nav {
+  background-color: #eedd88;
+  border-radius: 80px; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      text-align: center;
+      text-decoration: none;
+      color: #000; }
+      nav li a:hover {
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

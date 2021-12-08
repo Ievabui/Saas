@@ -1,0 +1,24 @@
+@import "var";
+@import "Components/button";
+@import "mixins";
+nav {
+  background-color:$navBgColor;
+  @include border-radius(80px);
+
+  li {
+    display: inline-block;
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      color:$navLink;
+      @extend .button;
+      &:hover{
+        color:$navLinkHover;
+      }
+    }
+  }
+}
+
+
+
